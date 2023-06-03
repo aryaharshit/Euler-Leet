@@ -15,5 +15,5 @@ class Solution:
           
           
 output = Solution()
-result = output.twoSum([2,5,5,11], 10)
+result = output.twoSum([2,5,5,11], 7)
 print(result) 
