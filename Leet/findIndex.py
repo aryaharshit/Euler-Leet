@@ -7,7 +7,6 @@ or -1 if needle is not part of haystack.
 import re
 class Solution:
     def strStr(self, haystack, needle):
-        num = needle[0]
         x = re.search(needle, haystack)
 
         if x:
